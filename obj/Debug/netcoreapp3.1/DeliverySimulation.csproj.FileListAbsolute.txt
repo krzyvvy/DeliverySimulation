@@ -249,7 +249,6 @@ C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\bin\Debug\netc
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.csprojAssemblyReference.cache
-C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.AssemblyInfoInputs.cache
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.AssemblyInfo.cs
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.RazorTargetAssemblyInfo.cache
@@ -258,3 +257,6 @@ C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netc
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\staticwebassets\DeliverySimulation.StaticWebAssets.xml
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.dll
 C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.pdb
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.API\obj\Debug\netcoreapp3.1\DeliverySimulation.MvcApplicationPartsAssemblyInfo.cache

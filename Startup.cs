@@ -2,7 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using DeliverySimulation.Data;
+using DeliverySimulation.Repository.Clients;
+using DeliverySimulation.Repository.Workers;
+using DeliverySimulation.Service.Client;
+using DeliverySimulation.Service.Worker;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +33,17 @@ namespace DeliverySimulation
         {
             services.AddControllers();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IClientService, ClientService>();
+            services.AddScoped<IClientRepository, ClientRepository>();
+            services.AddScoped<IWorkerService, WorkerService>();
+            services.AddScoped<IWorkerRepository, WorkerRepository>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +55,7 @@ namespace DeliverySimulation
             }
 
             app.UseRouting();
-
+            app.UseCors("MyPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
