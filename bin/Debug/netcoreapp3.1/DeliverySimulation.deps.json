@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "DeliverySimulation/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.3",
@@ -295,6 +296,36 @@
         },
         "compile": {
           "DeliverySimulation.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -882,8 +913,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -896,8 +927,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -912,8 +943,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -926,8 +957,8 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -940,8 +971,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -958,8 +989,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -975,8 +1006,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -989,8 +1020,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.100.120.7405"
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.17701"
           }
         },
         "compile": {
@@ -3516,6 +3547,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
