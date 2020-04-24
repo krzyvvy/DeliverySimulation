@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kacper\\source\\repos\\DeliverySimulation\\DeliverySimulation\\DeliverySimulation.csproj": {}
+    "C:\\Users\\Kacper\\Desktop\\DeliverySimulation\\DeliverySimulation.API\\DeliverySimulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kacper\\source\\repos\\DeliverySimulation\\DeliverySimulation\\DeliverySimulation.csproj": {
+    "C:\\Users\\Kacper\\Desktop\\DeliverySimulation\\DeliverySimulation.API\\DeliverySimulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kacper\\source\\repos\\DeliverySimulation\\DeliverySimulation\\DeliverySimulation.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\DeliverySimulation\\DeliverySimulation.API\\DeliverySimulation.csproj",
         "projectName": "DeliverySimulation",
-        "projectPath": "C:\\Users\\Kacper\\source\\repos\\DeliverySimulation\\DeliverySimulation\\DeliverySimulation.csproj",
+        "projectPath": "C:\\Users\\Kacper\\Desktop\\DeliverySimulation\\DeliverySimulation.API\\DeliverySimulation.csproj",
         "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kacper\\source\\repos\\DeliverySimulation\\DeliverySimulation\\obj\\",
+        "outputPath": "C:\\Users\\Kacper\\Desktop\\DeliverySimulation\\DeliverySimulation.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

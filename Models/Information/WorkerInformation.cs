@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace DeliverySimulation.Models.Information
 {
-    public class ClientsInformation
+    public class WorkerInformation
     {
-        public int? ClientId { get; set; }
+        public int? WorkerId { get; set; }
         public string Full_name { get; set; }
         public string Adress { get; set; }
         public string Country_code { get; set; }

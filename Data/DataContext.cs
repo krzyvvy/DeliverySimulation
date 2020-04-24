@@ -11,6 +11,10 @@ namespace DeliverySimulation.Data
     {
         public DataContext(DbContextOptions<DataContext>options) : base(options) { }
 
-        public DbSet<Clients> Clients { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderHistory> OrderHistories { get; set; }
+        public DbSet<Worker> Workers { get; set; }
+
     }
 }
