@@ -13,5 +13,6 @@ namespace DeliverySimulation.Models.Entity
         public string Full_name { get; set; }
         public string Adress { get; set; }
         public string Country_code { get; set; }
+
     }
 }
