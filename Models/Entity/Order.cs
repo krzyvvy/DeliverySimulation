@@ -18,5 +18,6 @@ namespace DeliverySimulation.Models.Entity
         public DateTime Departure { get; set; }
         public DateTime Arrival { get; set; }
         public int ClientId { get; set; }
+        public virtual Client Client { get; set; }
     }
 }

@@ -14,5 +14,6 @@ namespace DeliverySimulation.Models.Entity
         public DateTime WorkerArrival { get; set; }
         public int OrderId { get; set; }
         public int WorkerId { get; set; }
+        public virtual Order Order { get; set; }
     }
 }
