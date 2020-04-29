@@ -24,7 +24,7 @@ namespace DeliverySimulation.Repository.OrderHistories
         public async Task AddOrderHistory(OrderHistoryInformation orderHistoryInformation)
         {
             var orderhistory = _mapper.Map<OrderHistory>(orderHistoryInformation);
-            await _context.AddAsync(orderhistory);
+            await _context.OrderHistories.AddAsync(orderhistory);
 
             await _context.SaveChangesAsync();
         }
@@ -32,7 +32,7 @@ namespace DeliverySimulation.Repository.OrderHistories
         public async Task DeleteOrderHistory(int id)
         {
             var orderhistory = await _context.OrderHistories.FindAsync(id);
-            _context.Remove(orderhistory);
+            _context.OrderHistories.Remove(orderhistory);
 
             await _context.SaveChangesAsync();
         }
@@ -40,7 +40,7 @@ namespace DeliverySimulation.Repository.OrderHistories
         public async Task EditOrderHistory(OrderHistoryInformation orderHistoryInformation)
         {
             var orderhistory = _mapper.Map<OrderHistory>(orderHistoryInformation);
-            _context.Update(orderhistory);
+            _context.OrderHistories.Update(orderhistory);
 
             await _context.SaveChangesAsync();
         }
@@ -53,7 +53,7 @@ namespace DeliverySimulation.Repository.OrderHistories
 
         public async Task<OrderHistoryInformation> GetOrderHistory(int id)
         {
-            var orderhistory = await _context.OrderHistories.FirstOrDefaultAsync(x => x.OrderHistoryId == id);
+            var orderhistory = await _context.OrderHistories.SingleOrDefaultAsync(x => x.OrderHistoryId == id);
             return _mapper.Map<OrderHistoryInformation>(orderhistory);
 
         }

@@ -12,6 +12,5 @@ namespace DeliverySimulation.Service.Client
         Task<ClientInformation> GetClient(int id);
         Task<IEnumerable<ClientInformation>> GetClients();
         Task EditClient(ClientInformation clientInformation);
-        Task AddClient(object clientInformation);
     }
 }

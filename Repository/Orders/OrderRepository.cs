@@ -23,7 +23,7 @@ namespace DeliverySimulation.Repository.Orders
         public async Task AddOrder(OrderInformation orderInformation)
         {
             var order = _mapper.Map<Order>(orderInformation);
-            await _context.AddAsync(order);
+            await _context.Orders.AddAsync(order);
 
             await _context.SaveChangesAsync();
         }
@@ -31,21 +31,21 @@ namespace DeliverySimulation.Repository.Orders
         public async  Task DeleteOrder(int id)
         {
             var order = await _context.Orders.FindAsync(id);
-            _context.Remove(order);
+            _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
         }
 
         public async Task EditOrder(OrderInformation orderInformation)
         {
             var order = _mapper.Map<Order>(orderInformation);
-            _context.Update(order);
+            _context.Orders.Update(order);
 
             await _context.SaveChangesAsync();
         }
 
         public async Task<OrderInformation> GetOrder(int id)
         {
-            var order = await _context.Orders.FirstOrDefaultAsync(x => x.OrderId == id);
+            var order = await _context.Orders.SingleOrDefaultAsync(x => x.OrderId == id);
             return _mapper.Map<OrderInformation>(order);
         }
 

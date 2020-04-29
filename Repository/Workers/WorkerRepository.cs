@@ -23,7 +23,7 @@ namespace DeliverySimulation.Repository.Workers
         public async Task AddWorker(WorkerInformation workerInformation)
         {
             var worker = _mapper.Map<Worker>(workerInformation);
-            await _context.AddAsync(worker);
+            await _context.Workers.AddAsync(worker);
 
             await _context.SaveChangesAsync();
         }
@@ -31,14 +31,14 @@ namespace DeliverySimulation.Repository.Workers
         public async Task EditWorker(WorkerInformation workerInformation)
         {
             var worker = _mapper.Map<Worker>(workerInformation);
-            _context.Update(worker);
+            _context.Workers.Update(worker);
 
             await _context.SaveChangesAsync();
         }
 
         public async Task<WorkerInformation> GetWorker(int id)
         {
-            var worker = await _context.Workers.FirstOrDefaultAsync(x => x.WorkerId == id);
+            var worker = await _context.Workers.SingleOrDefaultAsync(x => x.WorkerId == id);
             return _mapper.Map<WorkerInformation>(worker);
         }
 
