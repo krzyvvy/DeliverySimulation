@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 using AutoMapper;
 using DeliverySimulation.Data;
 using DeliverySimulation.Repository.Clients;
+using DeliverySimulation.Repository.OrderHistories;
+using DeliverySimulation.Repository.Orders;
 using DeliverySimulation.Repository.Workers;
 using DeliverySimulation.Service.Client;
+using DeliverySimulation.Service.Order;
+using DeliverySimulation.Service.OrderHistory;
 using DeliverySimulation.Service.Worker;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,6 +41,10 @@ namespace DeliverySimulation
             services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IWorkerService, WorkerService>();
             services.AddScoped<IWorkerRepository, WorkerRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderHistoryRepository, OrderHistoryRepository>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IOrderHistoryService, OrderHistoryService>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {

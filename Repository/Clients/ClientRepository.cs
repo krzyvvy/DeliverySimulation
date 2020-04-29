@@ -23,7 +23,7 @@ namespace DeliverySimulation.Repository.Clients
         public async Task AddClient(ClientInformation clientInformation)
         {
             var client = _mapper.Map<Client>(clientInformation);
-            await _context.AddAsync(client);
+            await _context.Clients.AddAsync(client);
 
             await _context.SaveChangesAsync();
         }
@@ -31,14 +31,14 @@ namespace DeliverySimulation.Repository.Clients
         public async Task EditClient(ClientInformation clientInformation)
         {
             var client = _mapper.Map<Client>(clientInformation);
-            _context.Update(client);
+            _context.Clients.Update(client);
 
             await _context.SaveChangesAsync();
         }
 
         public async Task<ClientInformation> GetClient(int id)
         {
-            var client = await _context.Clients.FirstOrDefaultAsync(x => x.ClientId == id);
+            var client = await _context.Clients.SingleOrDefaultAsync(x => x.ClientId == id);
             return _mapper.Map<ClientInformation>(client);
         }
 

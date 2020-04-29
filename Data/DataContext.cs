@@ -15,6 +15,5 @@ namespace DeliverySimulation.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderHistory> OrderHistories { get; set; }
         public DbSet<Worker> Workers { get; set; }
-
     }
 }
