@@ -1,0 +1,16 @@
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.deps.json
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.pdb
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.csprojAssemblyReference.cache
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.AssemblyInfoInputs.cache
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.AssemblyInfo.cs
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.pdb
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.deps.json
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\bin\Debug\netcoreapp3.1\DeliverySimulation.Models.pdb
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.csprojAssemblyReference.cache
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.AssemblyInfoInputs.cache
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.AssemblyInfo.cs
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.dll
+C:\Users\Kacper\Desktop\DeliverySimulation\DeliverySimulation\src\DeliverySimulation.Models\obj\Debug\netcoreapp3.1\DeliverySimulation.Models.pdb
